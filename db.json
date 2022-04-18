@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "a",
+      "email": "a@a",
+      "password": "a",
+      "id": "6ba8rhswkzf4j8c7"
+    },
+    {
+      "name": "Геннадий Александрович Уткин",
+      "email": "g.utkin80@yandex.ru",
+      "password": "12345678",
+      "id": "15sdwrbc0l24cqk32"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "Дом",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "id": "15sdwrbukl24cd6x2"
+    },
+    {
+      "name": "Квартира",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "id": "15sdwr3wol24cfijf"
+    },
+    {
+      "name": "Работа",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "id": "15sdwra34l24ck5gb"
+    },
+    {
+      "name": "Интернет ",
+      "user_id": "15sdwrbc0l24cqk32",
+      "id": "15sdwrb1wl24crndi"
+    },
+    {
+      "name": "ЖКХ",
+      "user_id": "15sdwrbc0l24cqk32",
+      "id": "15sdwr9wkl24cs1f4"
+    },
+    {
+      "name": "Бензин",
+      "user_id": "15sdwrbc0l24cqk32",
+      "id": "15sdwrb5wl24csi5u"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "15sdwr5y0l24btjho",
+      "type": "income",
+      "name": "Наследство",
+      "sum": 500000000,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-04-18T06:18:49.451Z"
+    },
+    {
+      "id": "15sdwr80cl24bv9nj",
+      "type": "income",
+      "name": "Копилка",
+      "sum": 1500,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-04-18T06:20:10.014Z"
+    },
+    {
+      "id": "15sdwr9ssl24bxd7f",
+      "type": "income",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-04-18T06:21:47.930Z"
+    },
+    {
+      "id": "15sdwr8lwl24cdnle",
+      "type": "expense",
+      "name": "Обои",
+      "sum": 25000,
+      "account_id": "15sdwrbukl24cd6x2",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:34:27.889Z"
+    },
+    {
+      "id": "15sdwr9lwl24cfzsx",
+      "type": "expense",
+      "name": "квартплата",
+      "sum": 3250,
+      "account_id": "15sdwr3wol24cfijf",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:36:17.024Z"
+    },
+    {
+      "id": "15sdwr5qsl24cgut1",
+      "type": "expense",
+      "name": "новый счётчик",
+      "sum": 3000,
+      "account_id": "15sdwr3wol24cfijf",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:36:57.204Z"
+    },
+    {
+      "id": "15sdwra0sl24cknuc",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 250000,
+      "account_id": "15sdwra34l24ck5gb",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:39:54.803Z"
+    },
+    {
+      "id": "15sdwr968l24cl5yu",
+      "type": "expense",
+      "name": "Полы",
+      "sum": 7000,
+      "account_id": "15sdwrbukl24cd6x2",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:40:18.293Z"
+    },
+    {
+      "id": "15sdwrbj4l24clsyz",
+      "type": "income",
+      "name": "Аренда",
+      "sum": 45000,
+      "account_id": "15sdwr3wol24cfijf",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:40:48.107Z"
+    },
+    {
+      "id": "15sdwr9jkl24cnldo",
+      "type": "expense",
+      "name": "Потолки",
+      "sum": 100000,
+      "account_id": "15sdwrbukl24cd6x2",
+      "user_id": "6ba8rhswkzf4j8c7",
+      "created_at": "2022-04-18T06:42:11.579Z"
+    },
+    {
+      "id": "15sdwrb38l24cti9p",
+      "type": "expense",
+      "name": "Абонплата",
+      "sum": 400,
+      "account_id": "15sdwrb1wl24crndi",
+      "user_id": "15sdwrbc0l24cqk32",
+      "created_at": "2022-04-18T06:46:47.485Z"
+    },
+    {
+      "id": "15sdwra54l24ctyhm",
+      "type": "expense",
+      "name": "Квартира",
+      "sum": 3250,
+      "account_id": "15sdwr9wkl24cs1f4",
+      "user_id": "15sdwrbc0l24cqk32",
+      "created_at": "2022-04-18T06:47:08.506Z"
+    },
+    {
+      "id": "15sdwr1dcl24cuob9",
+      "type": "expense",
+      "name": "Дом",
+      "sum": 5500,
+      "account_id": "15sdwr9wkl24cs1f4",
+      "user_id": "15sdwrbc0l24cqk32",
+      "created_at": "2022-04-18T06:47:41.972Z"
+    },
+    {
+      "id": "15sdwrtol24cv6mz",
+      "type": "expense",
+      "name": "Заправка АИ-95",
+      "sum": 2200,
+      "account_id": "15sdwrb5wl24csi5u",
+      "user_id": "15sdwrbc0l24cqk32",
+      "created_at": "2022-04-18T06:48:05.722Z"
+    },
+    {
+      "id": "15sdwramgl24d85nr",
+      "type": "expense",
+      "name": "Кредит",
+      "sum": 5000,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2022-04-18T06:58:10.982Z"
+    },
+    {
+      "id": "15sdwrzsl24dwpmk",
+      "type": "expense",
+      "name": "Самолёт ",
+      "sum": 100000000,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-04-18T07:17:16.604Z"
+    },
+    {
+      "id": "15sdwr748l24dxhls",
+      "type": "expense",
+      "name": "Яхта",
+      "sum": 90000000,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-04-18T07:17:52.863Z"
+    },
+    {
+      "id": "15sdwr7hkl24dy8w9",
+      "type": "expense",
+      "name": "Особняк",
+      "sum": 150000000,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-04-18T07:18:28.232Z"
+    },
+    {
+      "id": "15sdwr5x8l24dzbke",
+      "type": "expense",
+      "name": "Отель на Кубе",
+      "sum": 150000000,
+      "account_id": "3",
+      "user_id": "1",
+      "created_at": "2022-04-18T07:19:18.349Z"
+    }
+  ]
+}
